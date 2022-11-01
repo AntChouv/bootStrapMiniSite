@@ -1,0 +1,81 @@
+body {
+    background: #FCCB1A;
+    font-family: 'Nunito', sans-serif;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .navbar-brand{
+    color: #FC600A;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#mainNavbar .nav-link:hover{
+    color: #F7E0D4;
+}
+.nav-link{
+    color: #342B09;
+}
+#mainNavbar.scrolled{
+    background-color: #FCCB1A;;
+}
+
+
+#visitAlAndalus {
+    margin-top: 2.5rem;
+}
+#visitAlAndalus h2{
+    color: #F7E0D4;
+    font-size: 4rem;
+    font-weight: 100;
+
+}
+#slash {
+    color: #FC600A;
+    font-weight: 300;
+}
+@media (max-width: 1404px){
+    #visitAlAndalus h2{
+        font-size: 3rem;    
+    }
+}
+@media (max-width: 1092px){
+    #visitAlAndalus h2{
+        font-size: 2.5rem;    
+    }
+}
+@media (max-width: 991px){
+    #navbar .navbar-brand{
+        color: #F7E0D4;    
+    }
+    .nav-link{
+        color: #FCCB1A;
+    }
+    #navbar .nav-link:hover{
+        color: #F7E0D4;
+    }
+    #mainNavbar.scrolled{
+        background-color: #342B09;
+    }
+}
+
+.visit{
+    color: #FC600A;
+    font-size: 1.125;
+    font-weight: 100;
+    line-height: 2rem;
+}
+.visit h2{
+    color: #F7E0D4;
+    font-size: 2.5rem;
+}
+.icon{
+    width: 3rem;
+    margin: 1rem 0;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
